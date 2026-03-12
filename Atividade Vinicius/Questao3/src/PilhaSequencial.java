@@ -29,8 +29,9 @@ public class PilhaSequencial {
         if (isEmpty()) {
             throw new RuntimeException("Pilha vazia");
         }
-        return pilha[topo--];
+        return -1;
     }
+
 
 
     public int peek() {
